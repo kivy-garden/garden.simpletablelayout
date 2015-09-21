@@ -1,7 +1,8 @@
 """
     Simple Table Layout
     ===================
-    Simple Table like Layout that understands rowspan and colspan properties of children (like HTML tables).
+    Simple Table like Layout that understands rowspan and colspan properties of
+    children (like HTML tables).
 
     Usage (kv):
 
@@ -47,7 +48,9 @@
     #    # C3 #
     ###########
 
-    Lastly, SimpleTableLayout.cell(row, col) returns widget at that position in the grid.
+    Lastly, SimpleTableLayout.cell(row, col) returns widget at that position in
+    the grid.
+    
     author: Jeyson Molina <jeyson.mco@gmail.com>
 """
 
