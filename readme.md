@@ -4,6 +4,7 @@ Simple Table Layout
 ===================
 
 Simple Table like Layout that understands rowspan and colspan properties of children (like HTML tables).
+
 Usage (kv):
 
 Example 1:
@@ -20,10 +21,15 @@ Example 1:
             text: "C3"
 
 creates:
+    
     ###########
+    
     #    C1   #
+    
     ###########
+    
     # C2 # C3 #
+    
     ###########
 
 Example 2:
@@ -41,10 +47,15 @@ Example 2:
             text: "C3"
 
 creates:
+    
     ###########
+    
     #    # C2 #
+    
     # C1 ######
+    
     #    # C3 #
+    
     ###########
 
 Lastly, SimpleTableLayout.cell(row, col) returns widget at that position in the grid.
