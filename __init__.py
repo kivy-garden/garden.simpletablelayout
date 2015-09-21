@@ -54,7 +54,7 @@
     author: Jeyson Molina <jeyson.mco@gmail.com>
 """
 
-__all__ = ('Simple Table Layout', )
+__all__ = ('SimpleTableLayout', )
 __version__ = '0.1'
 
 from kivy.lang import Builder
