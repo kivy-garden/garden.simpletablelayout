@@ -8,6 +8,7 @@ Simple Table like Layout that understands rowspan and colspan properties of chil
 Usage (kv):
 
 Example 1:
+
     SimpleTableLayout:
         rows: 2
         cols: 2
